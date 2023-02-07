@@ -5,11 +5,9 @@
 
 let numeroUtente
 
-console.log(numeroUtente)
-
 const maxnumeridispari = 10
 
-    let contenitoreNumeriDispari = []
+let contenitoreNumeriDispari = []
 
 // while(isNaN(numeroUtente) || (numeroUtente % 2) === 0 )
 // {
@@ -18,18 +16,18 @@ const maxnumeridispari = 10
 //     }
 // }
 
-for (null; contenitoreNumeriDispari = maxnumeridispari; null){
+for (null; maxnumeridispari; null){
 
     numeroUtente = parseInt(prompt('Inserisci un numero dispari'))
 
-    if (!isNaN(numeroUtente) || (numeroUtente % 3) === 0 ){
+    if (!isNaN(numeroUtente) && numeroUtente % 3 === 0 ){
 
         contenitoreNumeriDispari.push(numeroUtente)
     }
 
     console.log(isNaN(numeroUtente))
 
-    console.log((numeroUtente % 2) === 0)
+    console.log((numeroUtente % 3) === 0)
 
     contenitoreNumeriDispari.push(numeroUtente)
 
