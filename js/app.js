@@ -9,22 +9,19 @@ const maxNumeriDispari = 10
 
 let contenitoreNumeriDispari = []
     
-while (contenitoreNumeriDispari.length < 10){
+while (contenitoreNumeriDispari.length <= 9){
 
     numeroUtente = parseInt(prompt('Inserisci un numero dispari'))
 
     if(!isNaN(numeroUtente) && numeroUtente % 2 != 0){
 
         contenitoreNumeriDispari.push(numeroUtente)
+        console.log(contenitoreNumeriDispari)
     }
-    
-    console.log(contenitoreNumeriDispari)
+
 } 
 
-console.log(contenitoreNumeriDispari)
-
-for(let i = 0; i <= contenitoreNumeriDispari.length; i++){
-
+for(let i = 0; i <= contenitoreNumeriDispari.length - 1; i++){
     console.log(contenitoreNumeriDispari[i])
 }
 
